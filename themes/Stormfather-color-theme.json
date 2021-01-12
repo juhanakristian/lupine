@@ -2,10 +2,36 @@
 	"name": "Stormfather",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"focusBorder": "#8695b777",
+
+		// Editor
+		"editor.background": "#1d2433",
+		"editor.foreground": "#a2aabc",
+
+		// Sidebar
+		"sideBarTitle.foreground": "#bbbbbb",
+
+		// Panel colors
+		"panel.background": "#171c28",
+		"panel.border": "#1d2433",
+
+		// Status bar
+		"statusBar.border": "#171c28",
+		"statusBar.background": "#171c28",
+
+		"tab.activeBackground": "#1d2433",
+		"tab.unfocusedActiveBackground": "#1d2433",
+		"tab.activeForeground": "#d7dce2",
+		"tab.border": "#171c28",
+		"tab.activeBorder": "#ffcc66",
+
+
+		"editorWidget.border": "#171c28",
+		// "window.activeBorder": "#ff0000",
+		// "window.inactiveBorder": "#0f0"
+		// Base colors
+	
+		// Text colors
 	},
 	"tokenColors": [
 		{
