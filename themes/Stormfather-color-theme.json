@@ -5,11 +5,30 @@
 		"focusBorder": "#8695b777",
 
 		// Editor
-		"editor.background": "#1d2433",
+		// "editor.background": "#1d2433",
+		"editor.background": "#171c28",
 		"editor.foreground": "#a2aabc",
+		"editor.lineHighlightBackground": "#242a3a",
+
+		// Activity bar
+		"activityBar.background": "#171c28",
+		"activityBar.inactiveForeground": "#323b50",
+		// "activityBar.activeBackground": "#ff0000",
+		"activityBar.foreground": "#5c6e92",
 
 		// Sidebar
+		"sideBar.background": "#171c28",
 		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarSectionHeader.background": "#242c3f",
+
+		// File list
+		"list.activeSelectionBackground": "#2f3a52",
+		"list.inactiveSelectionBackground": "#2f3a52",
+
+		"list.hoverBackground": "#1f2636",
+		// "list.inactiveFocusBackground": "#ff0000",
+		// "list.activeSelectionForeground": "#ff0000",
+		"button.background": "#636",
 
 		// Panel colors
 		"panel.background": "#171c28",
@@ -27,6 +46,9 @@
 
 
 		"editorWidget.border": "#171c28",
+		"titleBar.activeBackground": "#171c28",
+		"titleBar.inactiveBackground": "#171c28",
+		"titleBar.inactiveForeground": "#5c6e92"
 		// "window.activeBorder": "#ff0000",
 		// "window.inactiveBorder": "#0f0"
 		// Base colors
