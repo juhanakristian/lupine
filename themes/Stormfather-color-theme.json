@@ -4,26 +4,38 @@
 	"colors": {
 		"focusBorder": "#8695b777",
 
+		//bg #171c28
+
+		/*
+		1B1929
+		07060A
+		1B1542
+		2F2475
+		8076C2
+
+		*/
+
 		// Editor
 		// "editor.background": "#1d2433",
-		"editor.background": "#171c28",
+		"editor.background": "#1B1929",
 		"editor.foreground": "#a2aabc",
-		"editor.lineHighlightBackground": "#242a3a",
+		"editor.lineHighlightBackground": "#8076C222",
 
 		// Activity bar
-		"activityBar.background": "#171c28",
+		"activityBar.background": "#1B1929",
 		"activityBar.inactiveForeground": "#323b50",
 		// "activityBar.activeBackground": "#ff0000",
 		"activityBar.foreground": "#5c6e92",
 
 		// Sidebar
-		"sideBar.background": "#171c28",
+		"sideBar.background": "#1B1929",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBarSectionHeader.background": "#242c3f",
 
 		// File list
 		"list.activeSelectionBackground": "#2f3a52",
-		"list.inactiveSelectionBackground": "#2f3a52",
+		"list.inactiveSelectionBackground": "#2a273f",
+		"list.inactiveSelectionForeground": "#8076C2",
 
 		"list.hoverBackground": "#1f2636",
 		// "list.inactiveFocusBackground": "#ff0000",
@@ -31,23 +43,23 @@
 		"button.background": "#636",
 
 		// Panel colors
-		"panel.background": "#171c28",
+		"panel.background": "#1B1929",
 		"panel.border": "#1d2433",
 
 		// Status bar
-		"statusBar.border": "#171c28",
-		"statusBar.background": "#171c28",
+		"statusBar.border": "#1B1929",
+		"statusBar.background": "#1B1929",
 
 		"tab.activeBackground": "#1d2433",
 		"tab.unfocusedActiveBackground": "#1d2433",
 		"tab.activeForeground": "#d7dce2",
-		"tab.border": "#171c28",
+		"tab.border": "#1B1929",
 		"tab.activeBorder": "#ffcc66",
 
 
-		"editorWidget.border": "#171c28",
-		"titleBar.activeBackground": "#171c28",
-		"titleBar.inactiveBackground": "#171c28",
+		"editorWidget.border": "#1B1929",
+		"titleBar.activeBackground": "#1B1929",
+		"titleBar.inactiveBackground": "#1B1929",
 		"titleBar.inactiveForeground": "#5c6e92"
 		// "window.activeBorder": "#ff0000",
 		// "window.inactiveBorder": "#0f0"
