@@ -22,7 +22,7 @@
 		"editor.lineHighlightBackground": "#8076C222",
 
 		// Activity bar
-		"activityBar.background": "#1B1929",
+		"activityBar.background": "#13111d",
 		"activityBar.inactiveForeground": "#323b50",
 		// "activityBar.activeBackground": "#ff0000",
 		"activityBar.foreground": "#5c6e92",
@@ -33,9 +33,12 @@
 		"sideBarSectionHeader.background": "#242c3f",
 
 		// File list
-		"list.activeSelectionBackground": "#2f3a52",
+		// "list.activeSelectionBackground": "#2f3a52",
+		"list.activeSelectionBackground": "#2a273f",
+		"list.activeSelectionForeground": "#8076C2",
 		"list.inactiveSelectionBackground": "#2a273f",
 		"list.inactiveSelectionForeground": "#8076C2",
+		"list.highlightForeground": "#8076C2",
 
 		"list.hoverBackground": "#1f2636",
 		// "list.inactiveFocusBackground": "#ff0000",
@@ -48,7 +51,7 @@
 
 		// Status bar
 		"statusBar.border": "#1B1929",
-		"statusBar.background": "#1B1929",
+		"statusBar.background": "#13111d",
 
 		"tab.activeBackground": "#1d2433",
 		"tab.unfocusedActiveBackground": "#1d2433",
@@ -56,10 +59,17 @@
 		"tab.border": "#1B1929",
 		"tab.activeBorder": "#ffcc66",
 
+		// Quick input
+		"quickInput.background": "#13111d",
+
+		// input control
+		"input.background": "#1e1b2c",
 
 		"editorWidget.border": "#1B1929",
-		"titleBar.activeBackground": "#1B1929",
-		"titleBar.inactiveBackground": "#1B1929",
+		"titleBar.activeBackground": "#13111d",
+		"titleBar.inactiveBackground": "#13111d",
+		// "titleBar.activeBackground": "#1B1929",
+		// "titleBar.inactiveBackground": "#1B1929",
 		"titleBar.inactiveForeground": "#5c6e92"
 		// "window.activeBorder": "#ff0000",
 		// "window.inactiveBorder": "#0f0"
