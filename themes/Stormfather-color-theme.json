@@ -51,6 +51,7 @@
     // Status bar
     "statusBar.border": "#1B1929",
     "statusBar.background": "#13111d",
+    "statusBar.debuggingBackground": "#ff0000bd",
 
     // Quick input
     "quickInput.background": "#13111d",
@@ -67,7 +68,10 @@
 
     "titleBar.activeBackground": "#13111d",
     "titleBar.inactiveBackground": "#13111d",
-    "titleBar.inactiveForeground": "#5c6e92"
+    "titleBar.inactiveForeground": "#5c6e92",
+
+    // "debugToolBar.background": "#1B1929"
+    "debugToolBar.background": "#27243b"
   },
   "tokenColors": [
     {
