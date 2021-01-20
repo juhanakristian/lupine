@@ -71,7 +71,8 @@
     "titleBar.inactiveForeground": "#5c6e92",
 
     // "debugToolBar.background": "#1B1929"
-    "debugToolBar.background": "#27243b"
+    "debugToolBar.background": "#27243b",
+    "dropdown.background": "#27243b"
   },
   "tokenColors": [
     {
