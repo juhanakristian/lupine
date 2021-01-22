@@ -10,7 +10,6 @@
 
     // Editor
     "editor.background": "#1B1929",
-    "editor.foreground": "#a2aabc",
     "editor.lineHighlightBackground": "#8076C222",
     "editorCursor.foreground": "#988de4",
 
