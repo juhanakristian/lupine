@@ -2,8 +2,6 @@
   "name": "Stormfather",
   "type": "dark",
   "colors": {
-    "focusBorder": "#8695b777",
-
     // Text
     "textLink.activeForeground": "#8076C2",
     "textLink.foreground": "#8076C2",
@@ -44,13 +42,12 @@
     "button.hoverBackground": "#8076C299",
 
     // Panel colors
-    "panel.background": "#1B1929",
     "panel.border": "#1d2433",
 
     // Status bar
     "statusBar.border": "#1B1929",
     "statusBar.background": "#13111d",
-    "statusBar.debuggingBackground": "#ff0000bd",
+    "statusBar.debuggingBackground": "#bb0000",
 
     // Quick input
     "quickInput.background": "#13111d",
