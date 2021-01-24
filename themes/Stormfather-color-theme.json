@@ -76,7 +76,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#637777"
+        "foreground": "#535758"
       }
     },
     {
@@ -89,81 +89,86 @@
 
     {
       "name": "Object Literal Key",
-      "scope": ["meta.object-literal.key.ts"],
+      "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#dfdfdf"
       }
     },
     {
       "name": "Builtin classes",
-      "scope": ["support.class.builtin.ts"],
+      "scope": ["support.class.builtin"],
       "settings": {
         "foreground": "#7fdbca"
       }
     },
     {
-      "name": "Variable Object",
+      "name": "Variable Other",
+      "scope": ["variable.other.readwrite"],
+      "settings": {
+        "foreground": "#dfdfdf"
+      }
+    },
+    {
+      "name": "Variable Other Object",
       "scope": ["variable.other.object.ts"],
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#dfdfdf"
       }
     },
     {
-      "name": "Variable Parameter Function",
-      "scope": "variable.parameter.function",
+      "name": "Variable Other Class",
+      "scope": ["variable.other.class"],
       "settings": {
-        "foreground": "#7fdbca",
-        "fontStyle": ""
+        "foreground": "#f07178"
       }
     },
     {
-      "name": "Variable Other Readwrite",
-      "scope": "variable.other.readwrite.ts",
+      "name": "Variable Language Prototype",
+      "scope": ["variable.language.prototype"],
       "settings": {
-        "foreground": "#7fdbca",
-        "fontStyle": ""
+        "foreground": "#cecacf"
       }
     },
     {
       "name": "Boolean",
-      "scope": "constant.language.boolean.true.ts",
+      "scope": "constant.language.boolean",
       "settings": {
         "foreground": "#c792ea",
         "fontStyle": ""
       }
     },
     {
-      "name": "Variable Instances",
-      "scope": [
-        "variable.instance",
-        "variable.other.instance",
-        "variable.readwrite.instance",
-        "variable.other.readwrite.instance"
-      ],
+      "name": "String Quoted",
+      "scope": ["string.quoted", "constant.other.object.key"],
       "settings": {
-        "foreground": "#baebe2"
+        "foreground": "#ffdd6d"
       }
     },
     {
       "name": "String Quoted",
-      "scope": ["string.quoted", "variable.other.readwrite.js"],
+      "scope": [
+        "support.type.primitive",
+        "meta.type.parameters entity.name.type",
+        "entity.name.type"
+      ],
       "settings": {
-        "foreground": "#ecc48d"
+        "foreground": "#FFC26D"
       }
     },
     {
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property", "variable.other.property"],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#cecacf",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Variable Property Other object",
-      "scope": ["variable.other.object.js"],
+      "scope": ["variable.other.object"],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "",
+        "foreground": "#cecacf"
       }
     },
     {
@@ -193,7 +198,8 @@
         "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
         "keyword.control.switch.js",
-        "keyword.control.switch.ts"
+        "keyword.control.switch.ts",
+        "keyword.control"
       ],
       "settings": {
         "foreground": "#c792ea",
@@ -203,9 +209,16 @@
 
     {
       "name": "Tag",
-      "scope": ["entity.name.tag"],
+      "scope": ["entity.name.tag", "constant.numeric.js"],
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "JSX attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ACD653"
       }
     },
     {
@@ -220,12 +233,16 @@
       "name": "Keyword, control flow",
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#537cd6"
+        "foreground": "#c792ea"
       }
     },
     {
       "name": "Type",
-      "scope": ["entity.name.type.ts", "meta.type.annotation.ts"],
+      "scope": [
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -234,14 +251,7 @@
       "name": "Function Argument",
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#F78C6C"
-      }
-    },
-    {
-      "name": "String",
-      "scope": "string",
-      "settings": {
-        "foreground": "#ecc48d"
+        "foreground": "#dfdfdf"
       }
     }
   ]
