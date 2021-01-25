@@ -22,6 +22,10 @@
     "sideBarTitle.foreground": "#bbbbbb",
     "sideBarSectionHeader.background": "#242c3f",
 
+    // Tabs
+    "tab.inactiveBackground": "#13111d",
+    "editorGroupHeader.tabsBackground": "#13111d",
+
     // File list
     "list.activeSelectionBackground": "#2a273f",
     "list.activeSelectionForeground": "#8076C2",

@@ -1,8 +1,12 @@
 {
-    "name": "stormfather",
-    "displayName": "Stormfather",
+    "name": "lupine",
+    "displayName": "Lupine Theme",
     "description": "",
     "version": "0.0.1",
+    "publisher": "juhanajauhiainen",
+    "repository": {
+        "url": "https://github.com/juhanakristian/lupine"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -12,9 +16,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Stormfather",
+                "label": "Lupine",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Stormfather-color-theme.json"
+                "path": "./themes/lupine-color-theme.json"
             }
         ]
     }

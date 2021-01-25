@@ -1,13 +1,23 @@
-# README
-## This is the README for your extension "stormfather"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Lupine
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A dark purple theme inspired by Night Owl, Palenight and Nako themes.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Color theme preview](./screenshot01.png)
 
-**Enjoy!**
+
+# Palette
+
+The syntax highlighting palette consist of 11 colors on a deep purple background.
+
+![Palette](./palette.png)
+
+
+# Installing
+
+1. Open Visual Studio Code
+2. Choose Extensions from menu
+3. Search for `lupine`
+4. Click Install to install
+5. Click Code -> Preferences -> Color Theme -> Lupine
+
+
