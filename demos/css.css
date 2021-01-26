@@ -1,0 +1,14 @@
+.someClass {
+  display: flex;
+}
+
+#someId {
+  font-size: 12px;
+}
+
+@media (min-width: 800px) {
+  html,
+  body {
+    height: 100%;
+  }
+}

@@ -2,7 +2,7 @@
 
 A dark purple theme inspired by Night Owl, Palenight and Nako themes.
 
-![Color theme preview](./screenshot01.png)
+![Color theme preview](./lupine.png)
 
 
 # Palette

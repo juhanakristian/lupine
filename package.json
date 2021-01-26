@@ -2,10 +2,16 @@
     "name": "lupine",
     "displayName": "Lupine Theme",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "publisher": "juhanajauhiainen",
     "repository": {
+        "type": "git",
         "url": "https://github.com/juhanakristian/lupine"
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#13111d",
+        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.52.0"
