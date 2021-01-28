@@ -143,13 +143,17 @@
     },
     {
       "name": "String Quoted",
-      "scope": ["string.quoted", "constant.other.object.key"],
+      "scope": [
+        "string.quoted",
+        "constant.other.object.key",
+        "string.template"
+      ],
       "settings": {
         "foreground": "#ffdd6d"
       }
     },
     {
-      "name": "String Quoted",
+      "name": "Type",
       "scope": [
         "support.type.primitive",
         "meta.type.parameters entity.name.type",
