@@ -10,7 +10,10 @@ All notable changes to the "lupine" extension will be documented in this file.
 
 - Packaging fixes
 
-
 ## 0.0.4
 
 - Added demos and better screenshot
+
+## 0.0.5
+
+- Added string template coloring
